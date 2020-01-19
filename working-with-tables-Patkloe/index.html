@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <style>
+            .green{
+                color: #3B8911;
+             }
+            .red{
+               color: #f00;
+            }
+            .yellow{
+               color: #ffd800; 
+            }
+            .blue{
+                color: #0404B4;
+            }
+            .white{
+                color: #FFFFFF;
+            }
+            .brown{
+                color: #61210B;
+            }
+            .black{
+               color: #000;   
+            }
+           body, html {
+  height: 100%;
+  /*height: auto;*/
+  margin: 0;
+  /*overflow: scroll;*/
+}
+.bg {
+  /* The image used */
+  background-image: url("./images/olympic-games.jpg");
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: inherit;
+  background-size: cover;
+  
+ 
+}
+img {
+  margin-left: 80%;
+  border: none;             
+}
+           
+.div-1{
+  /*background-color: #ffe066;
+  width:400px;
+  height:55px;
+  border-radius:10px;
+  border : solid #000000  2px;
+  padding : 7px;
+  text-align:center;
+  font-size: 30px;
+  margin:10px;
+  text-decoration:none;*/
+  padding: 25px;
+  }
+a{
+  text-decoration:none;
+  color:black;
+}
+#games {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#games td, #games th {
+  border: 0px solid #ddd;
+  padding: 5px;
+  text-align: right;
+}
+
+/*#games tr:nth-child(even){background-color: #f2f2f2;}*/
+#games tr:nth-child{background-color: white;}
+#games tr:hover {background-color: white;}
+
+#games th {
+  padding-top: 12px;
+  padding-bottom: 0px;
+  text-align: center;
+  background-color: #C0C0C0/*#4CAF50*/;
+  color: white;
+  border-radius: 15px;
+  height: 45px;
+  
+}
+.div-m{
+  margin-top: 150px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 5px;
+}
+</style>
+        <title>Working with Table</title>
+    </head>
+    <body class="bg">
+     <div class="div-m">
+<table id="games" ><th>Football<img src="./images/football.jpg" title="Football games" width="50" height="50"></th><th>Basketball<img src="./images/basketball.jpg" title="Basketball games" width="50" height="50"></th><th>Tennis<img src="./images/tennis.jpg" title="tennis games" width="50" height="50"></th><th>Wrestling<img src="./images/wrestling.jpg" title="Wrestling games" width="50" height="50"></th>
+<tr>
+<td><span class="green">Cam</span><span class="red">er</span><span class="yellow">oun</span></td>
+<td><span class="blue">U.</span><span class="red">s.</span><span class="white">a</span></td>
+<td><span class="blue">Fr<span class="white">an</span><span class="red">ce</span></td>
+<td><span class="green">Sen</span><span class="yellow">eg</span><span class="red">al</span></td>
+</tr>
+<tr>
+<td><span class="black">Ge</span><span class="red">rm</span><span class="yellow">any</span></td>
+<td><span class="red">Ca</span><span class="white">na</span><span class="red">da</span></td>
+<td><span class="blue">U.</span><span class="red">s.</span><span class="white">a</span></td>
+<td><span class="red">Dane</span><span class="white">mark</span></td>
+</tr>
+</table>
+</div>
+   
+    </body>
+</html>
